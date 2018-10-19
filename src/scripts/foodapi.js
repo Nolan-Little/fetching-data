@@ -54,7 +54,6 @@ fetch("http://localhost:8088/food")
       basicNutrition.Sugars = promisedFoodArray[index].product.nutriments.sugars
       basicNutrition.Energy = promisedFoodArray[index].product.nutriments.energy_value
       basicNutrition.Unit = promisedFoodArray[index].product.nutriments.energy_unit
-      console.log(basicNutrition);
 
       // iterate through the basic nutrition object to create a list of the basic info
       let nutritionList = document.createElement("ul");
@@ -78,9 +77,7 @@ fetch("http://localhost:8088/food")
       
       let itemContainer = buildElement("div", "food__container", null)
       let printTitle = buildElement("h1", "food__title", food.name)
-      // let printIngredients = buildElement("p", "ingredient", promisedFoodArray)
       itemContainer.appendChild(printTitle);
-      // itemContainer.appendChild(printIngredients);
       itemContainer.appendChild(infoPoints);
       itemContainer.appendChild(ingListUL);
       fragment.appendChild(itemContainer);
@@ -90,7 +87,7 @@ fetch("http://localhost:8088/food")
   })
 
 
-
+// element constructor
 let buildElement = (element, claz, content) => {
   let newelement = document.createElement(element);
   newelement.classList.add(claz);
