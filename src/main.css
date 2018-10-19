@@ -32,17 +32,18 @@ body {
 }
 
 .ingredients__list {
-  display: flex;
+  /* display: flex; */
   flex-flow: column wrap;
   width: 75vw;
   max-height: 600px;
   list-style: none;
   justify-content: space-between;
+  columns: 2;
   /* align-items: center; */
 }
 
 .ingredients__list>li {
-  display: flex;
+  /* display: flex; */
   flex-wrap: wrap;
   max-width: 300px;
   margin: 10 0;
