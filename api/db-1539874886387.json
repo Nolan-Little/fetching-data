@@ -1,0 +1,55 @@
+{
+  "food": [
+    {
+      "id": 1,
+      "name": "Linguine",
+      "type": "pasta",
+      "ethnicity": "italian",
+      "side-dishes": [
+        "Salad",
+        "Asparagus",
+        "Garlic Bread"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Massaman curry",
+      "type": "curry",
+      "ethnicity": "thai",
+      "side-dishes": [
+        "Rice",
+        "Potatoes"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Green curry",
+      "type": "curry",
+      "ethnicity": "thai",
+      "side-dishes": [
+        "Edamame",
+        "Egg Rolls"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Ravioli Funghi",
+      "type": "pasta",
+      "ethnicity": "italian",
+      "side-dishes": [
+        "Tuscan Salad",
+        "Bread"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Tuscan Soup",
+      "type": "vegetarian",
+      "ethnicity": "italian",
+      "side-dishes": [
+        "Bread",
+        "Sandwhich bites"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "food": [
+    {
+      "id": 1,
+      "name": "Linguine",
+      "type": "pasta",
+      "ethnicity": "italian",
+      "side-dishes": [
+        "Salad",
+        "Asparagus",
+        "Garlic Bread"
+      ],
+      "barcode": "8076809545846"
+    },
+    {
+      "id": 2,
+      "name": "Massaman curry",
+      "type": "curry",
+      "ethnicity": "thai",
+      "side-dishes": [
+        "Rice",
+        "Potatoes"
+      ],
+      "barcode": "5021047106031"
+    },
+    {
+      "id": 3,
+      "name": "Green curry",
+      "type": "curry",
+      "ethnicity": "thai",
+      "side-dishes": [
+        "Edamame",
+        "Egg Rolls"
+      ],
+      "barcode":"00054782"
+    },
+    {
+      "id": 4,
+      "name": "Mushroom Ravioli",
+      "type": "pasta",
+      "ethnicity": "italian",
+      "side-dishes": [
+        "Tuscan Salad",
+        "Bread"
+      ],
+      "barcode": "0719283590596"
+    },
+    {
+      "id": 5,
+      "name": "Tuscan Soup",
+      "type": "vegetarian",
+      "ethnicity": "italian",
+      "side-dishes": [
+        "Bread",
+        "Sandwhich bites"
+      ],
+      "barcode": "5000169116562"
+    }
+  ],
+  "beverages": [
+    {
+      "id": 1,
+      "name": "Primitivo",
+      "type": "Red wine",
+      "ethnicity": "italian",
+      "pairings": [
+        "Tuscan Soup",
+        "Ravioli Funghi"
+      ]
+    },
+    {
+      "name": "Zinfandel",
+      "type": "wine",
+      "ethnicity": "italian",
+      "pairings": [
+        "Tuscan Soup",
+        "Steak and Mushrooms"
+      ],
+      "id": 2
+    }
+  ],
+  "places": [
+    {
+      "name": "Buffal",
+      "type": "City",
+      "ethnicity": "Yankee",
+      "visit": [
+        "Niagara Falls",
+        "Finger Lakes"
+      ],
+      "id": 1
+    }
+  ]
+}
