@@ -1,0 +1,65 @@
+h1 {
+  text-align: center;
+  color: rgb(148, 185, 175);
+}
+
+
+body {
+  background-color: #2A2D34;
+}
+
+.food__container {
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: rgb(42, 63, 48) 2px solid;
+  border-radius: 10px;
+  width: 85vw;
+  background-color: antiquewhite;
+  color: rgb(33, 49, 38);
+}
+
+.food__title{
+  color: rgb(33, 49, 38);
+  font-size: 40px;
+  border-bottom: solid 3px rgb(33, 49, 38);
+}
+
+.food__country {
+  margin: 0;
+}
+
+.ingredients__list {
+  display: flex;
+  flex-flow: column wrap;
+  width: 75vw;
+  max-height: 600px;
+  list-style: none;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.ingredients__list>li {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 300px;
+  margin: 10 0;
+  padding: 0px 2px;
+}
+
+.basic-info{
+display: flex;
+flex-direction: column;
+border: solid 1px rgb(33, 49, 38);
+border-radius: 5px;
+padding: 10px
+}
+
+.nutrition__list {
+list-style: none;
+align-self: center;
+padding: 0;
+margin: 0;
+}
