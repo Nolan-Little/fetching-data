@@ -10,18 +10,18 @@
         "Asparagus",
         "Garlic Bread"
       ],
-      "barcode": "8076809545846"
+      "barcode": "00286565"
     },
     {
       "id": 2,
-      "name": "Massaman curry",
+      "name": "Red curry",
       "type": "curry",
       "ethnicity": "thai",
       "side-dishes": [
         "Rice",
         "Potatoes"
       ],
-      "barcode": "5021047106031"
+      "barcode": "0016229910914"
     },
     {
       "id": 3,
@@ -32,18 +32,18 @@
         "Edamame",
         "Egg Rolls"
       ],
-      "barcode":"00054782"
+      "barcode":"0044738102353"
     },
     {
       "id": 4,
-      "name": "Mushroom Ravioli",
+      "name": "Beef Ravioli",
       "type": "pasta",
       "ethnicity": "italian",
       "side-dishes": [
         "Tuscan Salad",
         "Bread"
       ],
-      "barcode": "0719283590596"
+      "barcode": "0011110853707"
     },
     {
       "id": 5,
